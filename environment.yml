@@ -11,3 +11,4 @@ dependencies:
   - pip
   - pip:
     - git+https://github.com/yt-project/yt_experiments/
+    - git+https://github.com/AnatoleStorck/yt_derived_fields@main
