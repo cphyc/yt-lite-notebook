@@ -5,3 +5,9 @@ channels:
 dependencies:
   - xeus-python
   - ipycanvas
+  - yt
+  - matplotlib
+  - unyt
+  - pip
+  - pip:
+    - git+https://github.com/yt-project/yt_experiments/
