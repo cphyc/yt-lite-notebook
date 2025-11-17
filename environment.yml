@@ -4,11 +4,11 @@ channels:
   - https://repo.prefix.dev/conda-forge
 dependencies:
   - xeus-python
-  - ipycanvas
-  - yt
+  - matplotlib
+  - scipy
+  - numpy
   - matplotlib
   - unyt
-  - pip
   - pip:
-    - git+https://github.com/yt-project/yt_experiments/
-    - git+https://github.com/AnatoleStorck/yt_derived_fields@main
+    # - git+https://github.com/yt-project/yt_experiments.git@main
+    - git+https://github.com/AnatoleStorck/yt_derived_fields.git@main
